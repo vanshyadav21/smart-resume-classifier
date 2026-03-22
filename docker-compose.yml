@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  resume-app:
+    build: .
+    container_name: recruit-ai-pro
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata/
+    restart: always
