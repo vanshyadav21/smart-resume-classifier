@@ -28,6 +28,7 @@ Follow these two steps in your terminal (VS Code Terminal or Command Prompt):
 Step 1: Train the Machine Learning Model
 Before running the app, you must train the model to generate the "brain" files (clf.pkl and tfidf.pkl).
 
+running commands
 Bash
 python train_model.py
 Wait for the message: "⭐⭐ SUCCESS: Model & Vectorizer Saved! ⭐⭐"
