@@ -11,3 +11,5 @@ services:
     environment:
       - TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata/
     restart: always
+volumes:
+  app:
